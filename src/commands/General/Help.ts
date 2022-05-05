@@ -53,8 +53,8 @@ export default class Command extends BaseCommand {
 ╭─「Kon'nichiwa *${M.sender.username}*'san
 │⋊ I'am:  🎀𝓜𝓐𝓡𝓘𝓝𝓔🎀
 │⋊ MY PREFIX: ${this.client.config.prefix}
-│⋊ 私の愛: *${this.client.config.prefix}mod*
-│⋊ 私の愛 : wa.me//+918130784851     
+│⋊ オーナー: 𝐀𝐊𝐔𝐌𝐀
+│⋊ インスタ : https://www.instagram.com/akuma__24/?hl=en    
 ╰────────────┈平和                            \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
@@ -66,10 +66,10 @@ export default class Command extends BaseCommand {
             return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `${text} 
- ──❅┈[ 𝒀𝒐𝒕𝒔𝒖𝒃𝒂 𝑩𝒐𝒕 ]┈❅───
+ ──❅┈[ MARIN ]┈❅───
 ┌────────────┈❅
-│   🎀𝓜𝓐𝓡𝓘𝓝𝓔🎀
-│   ©️ MADED BY AYUSH
+│   🎀𝓜𝓐𝓡𝓘𝓝🎀
+│   ©️ 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐊𝐔𝐌𝐀
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
